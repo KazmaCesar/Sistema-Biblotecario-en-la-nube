@@ -19,16 +19,30 @@ integrar las funcionalidades completas de gestión de libros, usuarios y reporte
 Estructura del proyecto
 sistema_prestamos/
 │
-├── main.py                 # Archivo principal que ejecuta el sistema
-├── interfaz_login.py       # Interfaz de inicio de sesión
-├── menu.py                 # Menú principal y carga de vistas
-├── opc_menu.py             # Opciones del menú lateral
-├── conexion_bd.py          # Archivo para conexión a la base de datos
-├── vistas/
-│   ├── vista_inicio.py     # Vista principal (Inicio)
-│   └── vista_prestamos.py  # Vista para gestión de préstamos
-├── logo.png                # Logotipo mostrado en la interfaz
-└── .gitignore              # Archivos a ignorar por Git
+├── conexion_bd.py
+├── interfaz_login.py
+├── logo.png
+├── main.py
+├── menu.py
+├── opc_menu.py
+├── README.md
+├── .gitignore
+│
+└── vistas/
+    ├── 
+    │
+    ├── Inicio/
+    │   ├─
+    │   └── vista_inicio.py
+    │
+    ├── Prestamo/
+    │   
+    │   └── vista_prestamos.py
+    │
+    └── Nuevo_prestamo/
+        ├─
+        └── vista_nprestamo.py
+
 
 ////////////////Requisitos////////////////
 Python
